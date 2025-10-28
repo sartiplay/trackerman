@@ -1,0 +1,55 @@
+{
+  "skins": [
+    {
+      "name": "karambit fade",
+      "exterior": "Unknown",
+      "url": "https://steamcommunity.com/market/search?appid=730&q=karambit+fade",
+      "skindata": [
+        {
+          "timestamp": "2025-10-28T10:11:24.655Z",
+          "price": 0,
+          "currency": "$",
+          "listingId": "result_0",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T10:17:22.505Z",
+          "price": 1384.64,
+          "currency": "$",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T10:22:27.832Z",
+          "price": 1384.64,
+          "currency": "$",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T10:25:25.252Z",
+          "price": 1895.15,
+          "currency": "$",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T10:25:25.256Z",
+          "price": 1384.64,
+          "currency": "$",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T11:28:05.085Z",
+          "price": 1384.64,
+          "currency": "$",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T11:30:40.737Z",
+          "price": 1384.64,
+          "currency": "$",
+          "expired": false
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-10-28T11:30:40.739Z"
+}

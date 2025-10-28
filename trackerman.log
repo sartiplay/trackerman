@@ -1,0 +1,72 @@
+[2025-10-28T10:17:22.055Z] [INFO] DataManager initialized
+[2025-10-28T10:17:22.056Z] [INFO] TrackermanService initialized
+[2025-10-28T10:17:22.058Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":1}
+[2025-10-28T10:17:22.059Z] [INFO] Fetching skin data | {"name":"karambit fade","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T10:17:22.061Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T10:17:22.505Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
+[2025-10-28T10:22:27.278Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":1}
+[2025-10-28T10:22:27.280Z] [INFO] Fetching skin data | {"name":"karambit fade","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T10:22:27.281Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T10:22:27.832Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
+[2025-10-28T10:24:29.209Z] [INFO] DataManager initialized
+[2025-10-28T10:24:29.210Z] [INFO] TrackermanService initialized
+[2025-10-28T10:24:29.243Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:24:29.245Z] [INFO] API GET /api/skins
+[2025-10-28T10:24:34.824Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:24:34.826Z] [INFO] API GET /api/skins
+[2025-10-28T10:24:35.465Z] [INFO] DataManager initialized
+[2025-10-28T10:24:35.467Z] [INFO] TrackermanService initialized
+[2025-10-28T10:24:35.468Z] [INFO] API GET /api/settings
+[2025-10-28T10:24:35.474Z] [INFO] DataManager initialized
+[2025-10-28T10:24:35.476Z] [INFO] TrackermanService initialized
+[2025-10-28T10:25:24.961Z] [INFO] DataManager initialized
+[2025-10-28T10:25:24.963Z] [INFO] TrackermanService initialized
+[2025-10-28T10:25:24.965Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"highest","count":5}
+[2025-10-28T10:25:24.967Z] [INFO] Fetching skin data | {"name":"karambit fade","exterior":"Unknown","options":{"fetchType":"single","priceType":"highest","count":5,"selectedSkins":[]}}
+[2025-10-28T10:25:24.968Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"highest","count":5,"selectedSkins":[]}}
+[2025-10-28T10:25:25.252Z] [INFO] Added data for skin karambit fade (Unknown): 1895.15 $
+[2025-10-28T10:25:25.256Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
+[2025-10-28T10:25:25.285Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:25:25.286Z] [INFO] API GET /api/skins
+[2025-10-28T10:25:25.304Z] [INFO] API GET /api/settings
+[2025-10-28T10:25:38.960Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:25:38.962Z] [INFO] API GET /api/skins
+[2025-10-28T10:25:38.975Z] [INFO] API GET /api/settings
+[2025-10-28T10:25:50.953Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:25:50.954Z] [INFO] API GET /api/skins
+[2025-10-28T10:26:33.261Z] [INFO] DataManager initialized
+[2025-10-28T10:26:33.264Z] [INFO] TrackermanService initialized
+[2025-10-28T10:26:33.266Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:26:33.268Z] [INFO] API GET /api/skins
+[2025-10-28T10:26:39.046Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:26:39.047Z] [INFO] API GET /api/skins
+[2025-10-28T10:26:39.688Z] [INFO] DataManager initialized
+[2025-10-28T10:26:39.690Z] [INFO] TrackermanService initialized
+[2025-10-28T10:26:39.696Z] [INFO] DataManager initialized
+[2025-10-28T10:26:39.699Z] [INFO] TrackermanService initialized
+[2025-10-28T10:26:39.701Z] [INFO] API GET /api/settings
+[2025-10-28T10:27:24.416Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T10:27:24.417Z] [INFO] API GET /api/skins
+[2025-10-28T10:27:24.430Z] [INFO] API GET /api/settings
+[2025-10-28T11:27:52.144Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T11:27:52.146Z] [INFO] API GET /api/skins
+[2025-10-28T11:27:52.157Z] [INFO] API GET /api/settings
+[2025-10-28T11:28:04.605Z] [INFO] DataManager initialized
+[2025-10-28T11:28:04.606Z] [INFO] TrackermanService initialized
+[2025-10-28T11:28:04.607Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":1}
+[2025-10-28T11:28:04.609Z] [INFO] Fetching skin data | {"name":"karambit fade","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T11:28:04.610Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T11:28:05.085Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
+[2025-10-28T11:28:05.103Z] [ERROR] Failed to load data synchronously: | {}
+[2025-10-28T11:28:05.104Z] [INFO] API GET /api/skins
+[2025-10-28T11:28:05.113Z] [INFO] API GET /api/settings
+[2025-10-28T11:30:33.675Z] [INFO] DataManager initialized
+[2025-10-28T11:30:33.677Z] [INFO] TrackermanService initialized
+[2025-10-28T11:30:33.678Z] [INFO] API GET /api/skins
+[2025-10-28T11:30:40.364Z] [INFO] DataManager initialized
+[2025-10-28T11:30:40.365Z] [INFO] TrackermanService initialized
+[2025-10-28T11:30:40.366Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":1}
+[2025-10-28T11:30:40.367Z] [INFO] Fetching skin data | {"name":"karambit fade","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T11:30:40.369Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
+[2025-10-28T11:30:40.737Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
+[2025-10-28T11:30:47.706Z] [INFO] API GET /api/skins
