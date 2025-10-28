@@ -51,6 +51,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: true, message: 'Skin added successfully' });
   } catch (error) {
     Logger.error('API POST /api/skins failed', error);
+    console.error('Detailed error:', error);
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : 'Failed to add skin' },
       { status: 400 }

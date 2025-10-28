@@ -70,3 +70,84 @@
 [2025-10-28T11:30:40.369Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=karambit+fade","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[]}}
 [2025-10-28T11:30:40.737Z] [INFO] Added data for skin karambit fade (Unknown): 1384.64 $
 [2025-10-28T11:30:47.706Z] [INFO] API GET /api/skins
+[2025-10-28T12:09:47.109Z] [INFO] DataManager initialized
+[2025-10-28T12:09:47.111Z] [INFO] TrackermanService initialized
+[2025-10-28T12:09:47.112Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:09:47.115Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:10:38.716Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:10:38.718Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:10:53.190Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/search?appid=730&q=ak47"}
+[2025-10-28T12:10:53.192Z] [INFO] Adding skin | {"name":"ak47","exterior":"Unknown","url":"https://steamcommunity.com/market/search?appid=730&q=ak47"}
+[2025-10-28T12:11:01.512Z] [INFO] API GET /api/skins
+[2025-10-28T12:11:07.758Z] [INFO] DataManager initialized
+[2025-10-28T12:11:07.759Z] [INFO] TrackermanService initialized
+[2025-10-28T12:11:07.760Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":3,"exteriorFilter":""}
+[2025-10-28T12:11:07.761Z] [INFO] Fetching skin data | {"name":"ak47","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":3,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:11:07.762Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=ak47","options":{"fetchType":"single","priceType":"lowest","count":3,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:11:08.191Z] [INFO] Added data for skin ak47 (Unknown): 0.84 $
+[2025-10-28T12:11:08.195Z] [INFO] Added data for skin ak47 (Unknown): 3.39 $
+[2025-10-28T12:11:08.207Z] [INFO] Added data for skin ak47 (Unknown): 4 $
+[2025-10-28T12:11:18.341Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:11:18.342Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:11:35.894Z] [INFO] DataManager initialized
+[2025-10-28T12:11:35.895Z] [INFO] TrackermanService initialized
+[2025-10-28T12:11:35.896Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:11:35.897Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:11:55.138Z] [INFO] DataManager initialized
+[2025-10-28T12:11:55.140Z] [INFO] TrackermanService initialized
+[2025-10-28T12:11:55.141Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:11:55.143Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:12:09.763Z] [INFO] API GET /api/skins
+[2025-10-28T12:12:10.613Z] [INFO] DataManager initialized
+[2025-10-28T12:12:10.616Z] [INFO] TrackermanService initialized
+[2025-10-28T12:12:10.629Z] [INFO] DataManager initialized
+[2025-10-28T12:12:10.631Z] [INFO] TrackermanService initialized
+[2025-10-28T12:12:10.633Z] [INFO] API GET /api/settings
+[2025-10-28T12:13:16.397Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:13:16.399Z] [ERROR] API POST /api/skins failed | {}
+[2025-10-28T12:13:49.879Z] [INFO] DataManager initialized
+[2025-10-28T12:13:49.880Z] [INFO] TrackermanService initialized
+[2025-10-28T12:13:49.881Z] [INFO] API POST /api/skins | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:13:49.883Z] [INFO] Adding skin | {"name":"AK-47 | Nightwish ()","exterior":"Field-Tested","url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29"}
+[2025-10-28T12:13:49.903Z] [INFO] API GET /api/skins
+[2025-10-28T12:13:50.373Z] [INFO] DataManager initialized
+[2025-10-28T12:13:50.374Z] [INFO] TrackermanService initialized
+[2025-10-28T12:13:50.379Z] [INFO] DataManager initialized
+[2025-10-28T12:13:50.380Z] [INFO] TrackermanService initialized
+[2025-10-28T12:13:50.382Z] [INFO] API GET /api/settings
+[2025-10-28T12:13:55.656Z] [INFO] DataManager initialized
+[2025-10-28T12:13:55.658Z] [INFO] TrackermanService initialized
+[2025-10-28T12:13:55.658Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":1,"exteriorFilter":""}
+[2025-10-28T12:13:55.659Z] [INFO] Fetching skin data | {"name":"AK-47 | Nightwish ()","exterior":"Field-Tested","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:13:55.660Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29","options":{"fetchType":"single","priceType":"lowest","count":1,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:13:56.293Z] [INFO] API GET /api/skins
+[2025-10-28T12:13:56.310Z] [INFO] API GET /api/settings
+[2025-10-28T12:14:39.738Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":5,"exteriorFilter":""}
+[2025-10-28T12:14:39.740Z] [INFO] Fetching skin data | {"name":"AK-47 | Nightwish ()","exterior":"Field-Tested","options":{"fetchType":"single","priceType":"lowest","count":5,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:14:39.741Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29","options":{"fetchType":"single","priceType":"lowest","count":5,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:14:41.966Z] [INFO] API GET /api/skins
+[2025-10-28T12:14:41.985Z] [INFO] API GET /api/settings
+[2025-10-28T12:15:12.484Z] [INFO] API POST /api/fetch | {"fetchType":"single","priceType":"lowest","count":5,"exteriorFilter":""}
+[2025-10-28T12:15:12.486Z] [INFO] Fetching skin data | {"name":"ak47","exterior":"Unknown","options":{"fetchType":"single","priceType":"lowest","count":5,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:15:12.486Z] [INFO] Scraping Steam market | {"url":"https://steamcommunity.com/market/search?appid=730&q=ak47","options":{"fetchType":"single","priceType":"lowest","count":5,"selectedSkins":[],"exteriorFilter":""}}
+[2025-10-28T12:15:14.358Z] [INFO] Added data for skin ak47 (Unknown): 0.84 $
+[2025-10-28T12:15:14.362Z] [INFO] Added data for skin ak47 (Unknown): 1.06 $
+[2025-10-28T12:15:14.375Z] [INFO] Added data for skin ak47 (Unknown): 7.75 $
+[2025-10-28T12:15:14.389Z] [INFO] Added data for skin ak47 (Unknown): 37.78 $
+[2025-10-28T12:15:14.402Z] [INFO] Added data for skin ak47 (Unknown): 40.14 $
+[2025-10-28T12:15:14.434Z] [INFO] API GET /api/skins
+[2025-10-28T12:15:14.455Z] [INFO] API GET /api/settings
+[2025-10-28T12:21:08.171Z] [INFO] DataManager initialized
+[2025-10-28T12:21:08.172Z] [INFO] TrackermanService initialized
+[2025-10-28T12:21:08.173Z] [INFO] API GET /api/skins
+[2025-10-28T12:21:08.177Z] [INFO] DataManager initialized
+[2025-10-28T12:21:08.179Z] [INFO] TrackermanService initialized
+[2025-10-28T12:21:08.182Z] [INFO] DataManager initialized
+[2025-10-28T12:21:08.183Z] [INFO] TrackermanService initialized
+[2025-10-28T12:21:08.184Z] [INFO] API GET /api/settings
+[2025-10-28T12:23:28.495Z] [INFO] API GET /api/skins
+[2025-10-28T12:23:28.511Z] [INFO] API GET /api/settings
+[2025-10-28T12:23:32.212Z] [INFO] Auto-scheduler started with interval: 30 minutes
+[2025-10-28T12:23:32.213Z] [INFO] API PUT /api/settings
+[2025-10-28T12:23:32.226Z] [INFO] API GET /api/skins
+[2025-10-28T12:23:32.237Z] [INFO] API GET /api/settings

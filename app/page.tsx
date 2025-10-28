@@ -8,6 +8,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Plus, Trash2, Settings, Play, Pause, RefreshCw, AlertCircle, CheckCircle } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Skin, TrackermanSettings, ScrapingOptions } from '@/types/index';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function Dashboard() {
   const [skins, setSkins] = useState<Skin[]>([]);
@@ -66,17 +67,19 @@ export default function Dashboard() {
         setNewSkinUrl('');
         setNewSkinExterior('');
         loadData();
+        toast.success('Skin added successfully!');
       } else {
-        alert(data.error);
+        toast.error(data.error);
       }
     } catch (error) {
       console.error('Failed to add skin:', error);
-      alert('Failed to add skin');
+      toast.error('Failed to add skin');
     }
   };
 
   const removeSkin = async (name: string, exterior: string) => {
-    if (!confirm(`Remove ${name} (${exterior}) from tracking?`)) return;
+    const confirmed = window.confirm(`Remove ${name} (${exterior}) from tracking?`);
+    if (!confirmed) return;
 
     try {
       const response = await fetch(`/api/skins?name=${encodeURIComponent(name)}&exterior=${encodeURIComponent(exterior)}`, {
@@ -86,12 +89,13 @@ export default function Dashboard() {
       const data = await response.json();
       if (data.success) {
         loadData();
+        toast.success('Skin removed successfully!');
       } else {
-        alert(data.error);
+        toast.error(data.error);
       }
     } catch (error) {
       console.error('Failed to remove skin:', error);
-      alert('Failed to remove skin');
+      toast.error('Failed to remove skin');
     }
   };
 
@@ -120,13 +124,13 @@ export default function Dashboard() {
       const data = await response.json();
       if (data.success) {
         await loadData(); // Wait for data to reload
-        alert('Data fetched successfully!');
+        toast.success('Data fetched successfully!');
       } else {
-        alert(data.error);
+        toast.error(data.error);
       }
     } catch (error) {
       console.error('Failed to fetch data:', error);
-      alert('Failed to fetch data');
+      toast.error('Failed to fetch data');
     } finally {
       setFetching(false);
     }
@@ -144,12 +148,13 @@ export default function Dashboard() {
       if (data.success) {
         setSettings({ ...settings!, ...newSettings });
         loadData();
+        toast.success('Settings updated successfully!');
       } else {
-        alert(data.error);
+        toast.error(data.error);
       }
     } catch (error) {
       console.error('Failed to update settings:', error);
-      alert('Failed to update settings');
+      toast.error('Failed to update settings');
     }
   };
 
@@ -160,10 +165,14 @@ export default function Dashboard() {
       });
 
       const data = await response.json();
-      alert(data.success ? 'Discord webhook test successful!' : data.error);
+      if (data.success) {
+        toast.success('Discord webhook test successful!');
+      } else {
+        toast.error(data.error);
+      }
     } catch (error) {
       console.error('Failed to test Discord webhook:', error);
-      alert('Failed to test Discord webhook');
+      toast.error('Failed to test Discord webhook');
     }
   };
 
@@ -180,6 +189,16 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          style: {
+            background: '#1f2937',
+            color: '#fff',
+            border: '1px solid #374151',
+          },
+        }}
+      />
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
@@ -448,7 +467,6 @@ export default function Dashboard() {
               value={newSkinExterior}
               onChange={(e) => setNewSkinExterior(e.target.value as any)}
               className="w-56 h-9 px-3 py-1 bg-black border border-zinc-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-zinc-500"
-              defaultValue=""
             >
               <option value="">Detect Exterior</option>
               <option value="Factory New">Factory New</option>
@@ -560,6 +578,11 @@ export default function Dashboard() {
                             <p className="text-zinc-300">
                               Last updated: {new Date(latest.timestamp).toLocaleString()}
                             </p>
+                            {latest.sellerName && (
+                              <p className="text-zinc-400">
+                                Seller: {latest.sellerName}
+                              </p>
+                            )}
                           </div>
                         );
                       })()}

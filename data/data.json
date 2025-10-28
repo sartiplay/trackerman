@@ -1,55 +1,82 @@
 {
   "skins": [
     {
-      "name": "karambit fade",
+      "name": "ak47",
       "exterior": "Unknown",
-      "url": "https://steamcommunity.com/market/search?appid=730&q=karambit+fade",
+      "url": "https://steamcommunity.com/market/search?appid=730&q=ak47",
       "skindata": [
         {
-          "timestamp": "2025-10-28T10:11:24.655Z",
-          "price": 0,
+          "timestamp": "2025-10-28T12:11:08.191Z",
+          "price": 0.84,
           "currency": "$",
-          "listingId": "result_0",
+          "listingId": "search_1761653468191_0.9876308038036563",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T10:17:22.505Z",
-          "price": 1384.64,
+          "timestamp": "2025-10-28T12:11:08.195Z",
+          "price": 3.39,
           "currency": "$",
+          "listingId": "search_1761653468191_0.32078306444947",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T10:22:27.832Z",
-          "price": 1384.64,
+          "timestamp": "2025-10-28T12:11:08.207Z",
+          "price": 4,
           "currency": "$",
+          "listingId": "search_1761653468191_0.8115000535745445",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T10:25:25.252Z",
-          "price": 1895.15,
+          "timestamp": "2025-10-28T12:15:14.358Z",
+          "price": 0.84,
           "currency": "$",
+          "listingId": "search_1761653714358_0.34861545846079744",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T10:25:25.256Z",
-          "price": 1384.64,
+          "timestamp": "2025-10-28T12:15:14.361Z",
+          "price": 1.06,
           "currency": "$",
+          "listingId": "search_1761653714358_0.8920083702106734",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T11:28:05.085Z",
-          "price": 1384.64,
+          "timestamp": "2025-10-28T12:15:14.375Z",
+          "price": 7.75,
           "currency": "$",
+          "listingId": "search_1761653714358_0.873526505891909",
+          "sellerId": "",
           "expired": true
         },
         {
-          "timestamp": "2025-10-28T11:30:40.737Z",
-          "price": 1384.64,
+          "timestamp": "2025-10-28T12:15:14.388Z",
+          "price": 37.78,
           "currency": "$",
+          "listingId": "search_1761653714358_0.7801009988481391",
+          "sellerId": "",
+          "expired": true
+        },
+        {
+          "timestamp": "2025-10-28T12:15:14.402Z",
+          "price": 40.14,
+          "currency": "$",
+          "listingId": "search_1761653714358_0.46613864075850486",
+          "sellerId": "",
           "expired": false
         }
       ]
+    },
+    {
+      "name": "AK-47 | Nightwish ()",
+      "exterior": "Field-Tested",
+      "url": "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Nightwish%20%28Field-Tested%29",
+      "skindata": []
     }
   ],
-  "lastUpdated": "2025-10-28T11:30:40.739Z"
+  "lastUpdated": "2025-10-28T12:15:14.404Z"
 }

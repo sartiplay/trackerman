@@ -65,7 +65,6 @@ export class AutoScheduler {
   public stop(): void {
     if (this.cronJob) {
       this.cronJob.stop();
-      this.cronJob.destroy();
       this.cronJob = null;
       Logger.info('Auto-scheduler stopped');
     }

@@ -1,7 +1,7 @@
 {
   "autoScheduler": {
-    "enabled": false,
-    "intervalMinutes": 30
+    "enabled": true,
+    "intervalMinutes": 1
   },
   "discord": {
     "enabled": false,
@@ -16,5 +16,8 @@
     "delayBetweenRequests": 1000,
     "maxRetries": 3
   },
-  "logging": { "enabled": true, "file": "trackerman.log" }
+  "logging": {
+    "enabled": true,
+    "file": "trackerman.log"
+  }
 }

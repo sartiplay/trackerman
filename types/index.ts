@@ -6,6 +6,7 @@ export interface SkinData {
   currency: string;
   listingId?: string;
   sellerId?: string;
+  sellerName?: string;
   expired?: boolean;
 }
 
@@ -72,4 +73,5 @@ export interface SteamMarketItem {
   currency: string;
   listingId?: string;
   sellerId?: string;
+  sellerName?: string;
 }
